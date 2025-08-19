@@ -1,8 +1,8 @@
 name: Deploy PDF
 
-env: |
-  $MAIN_FILE: "main_file_name"
-  $RBODY: "The release body of the file"
+env:
+  MAIN_FILE: "main_file_name"
+  RBODY: "The release body of the file"
 
 on:
   push:
